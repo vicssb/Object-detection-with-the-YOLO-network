@@ -1,0 +1,12 @@
+train: C:\AI\Repos machine-learning-specialist-training\yolov8_vic\data\train\images
+val: C:\AI\Repos machine-learning-specialist-training\yolov8_vic\data\valid\images
+
+nc: 3
+names: ['Beetle', 'Caterpillar', 'Butterfly']
+
+roboflow:
+  workspace: kyle-graupe-jobhn
+  project: wind-farms
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kyle-graupe-jobhn/wind-farms/dataset/5
