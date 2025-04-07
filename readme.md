@@ -79,6 +79,10 @@ After training, the model performance will be evaluated and the results will be 
 
 <a href="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" alt="Resultados" target="_blank">Vídeo</a>
 
+<video width="400" controls>
+  <source src="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ## License
 
 This project is licensed under the MIT License.
