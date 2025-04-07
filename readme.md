@@ -7,7 +7,6 @@
 </p>
 
 <div align="top" style="display: flex; justify-content: space-between;">
- <img src="./img/dio.png" alt="Logo DIO" width="80"/>
 <img src="./img/artificial-intelligence.png" alt="Logo Artificial Intelligence" width="80"/>
 <img src="./img/yolo.png" alt="Logo Yolo" width="80"/>
 <img src="./img/TensorFlow.png" alt="Logo TensorFlow" width="80"/>
@@ -56,11 +55,6 @@ The YOLO network is widely used in computer vision applications due to its abili
 
 To facilitate training, you can use the notebook available on Google Colab: [yolov8Completed](https://colab.research.google.com/drive/1uNB5kv3NFKxwAWcqU2r9O62j4gqonWjA).
 
-## Images
-
-![DIO](./img/dio.png)
-![Artificial Intelligence](./img/artificial-intelligence.png)
-
 ## Reference
 
 For more details, see the original lab: [Creating a Database and Training the YOLO Network](https://web.dio.me/lab/criacao-de-uma-base-de-dados-e-treinamento-da-rede-yolo/learning/7400ba5c-9fd7-42cd-aefe-131acfe198cb).
@@ -77,12 +71,11 @@ After training, the model performance will be evaluated and the results will be 
 
 ## Video with results
 
-<a href="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" alt="Resultados" target="_blank">Vídeo</a>
-
 <video width="400" controls>
-  <source src="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" type="video/mp4">
+  <source src="test video result.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 ## License
 
 This project is licensed under the MIT License.

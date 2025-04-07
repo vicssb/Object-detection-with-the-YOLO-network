@@ -56,9 +56,6 @@ A rede YOLO é amplamente utilizada em aplicações de visão computacional devi
  
 Para facilitar o treinamento, você pode utilizar o notebook disponível no Google Colab: [yolov8Completed](https://colab.research.google.com/drive/1uNB5kv3NFKxwAWcqU2r9O62j4gqonWjA).
 
-## Imagens
-
-![Inteligência Artificial](./img/artificial-intelligence.png)
 
 ## Referência
 
@@ -77,7 +74,10 @@ Após o treinamento, o desempenho do modelo será avaliado, e os resultados ser�
 
 ## Vídeo com resultados
 
-<a href="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" alt="Resultados" target="_blank">Vídeo</a>
+<video width="400" controls>
+  <source src="test video result.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Licença
 
