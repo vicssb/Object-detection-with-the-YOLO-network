@@ -71,11 +71,6 @@ After training, the model performance will be evaluated and the results will be 
 
 ## Video with results
 
-<video width="400" controls>
-  <source src="testVideoResult.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ![Test Video Result](testVideoResult.mp4)
 
 ## License
