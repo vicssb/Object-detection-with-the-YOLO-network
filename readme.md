@@ -41,9 +41,20 @@ The YOLO network is widely used in computer vision applications due to its abili
 - TensorFlow or PyTorch framework.
 - Image annotation tool (e.g., LabelImg).
 
+## Use on notebook (Local)
+
+718 minutes
+- Operating System Name: Microsoft Windows 10 Home Single Language
+- Processor: AMD Ryzen 3 3200U with Radeon Vega Mobile Gfx, 2600 Mhz, 2 Core(s), 4 Logical Processor(s)
+- Installed Physical Memory (RAM): 12.0 GB
+
 ## Usage on Google Colab
 
-To facilitate training, you can use the notebook available on Google Colab: [Transfer Learning Notebook](https://github.com/vicssb/Training-Neural-Networks-with-Transfer-Learning/blob/main/notebooks/transfer-learning.ipynb).
+33 minutes
+- Runtime environment type: Python 3
+- GPUs: T4
+
+To facilitate training, you can use the notebook available on Google Colab: [yolov8Completed](https://colab.research.google.com/drive/1uNB5kv3NFKxwAWcqU2r9O62j4gqonWjA).
 
 ## Images
 
@@ -56,9 +67,17 @@ For more details, see the original lab: [Creating a Database and Training the YO
 
 ## Results
 
-After training, the model's performance will be evaluated, and the results will be displayed. You can visualize the training process and results using TensorBoard.
+After training, the model performance will be evaluated and the results will be displayed. You can visualize the training process and the results using the graphs:
 
-<img src="./img/Accuracy - Loss.png" alt="Accuracy - Loss Plot" width="200"/>
+<img src="resultsYolov8CustomCOLAB_GPU\confusion_matrix_normalized.png" alt="Normalized Confusion Matrix" width="200"/>
+
+<img src="resultsYolov8CustomCOLAB_GPU\labels.jpg" alt="Labels" width="200"/>
+
+<img src="resultsYolov8CustomCOLAB_GPU\results.png" alt="Results" width="200"/>
+
+## Video with results
+
+<a href="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" alt="Resultados" target="_blank">Vídeo</a>
 
 ## License
 

@@ -41,12 +41,20 @@ A rede YOLO é amplamente utilizada em aplicações de visão computacional devi
 - Framework TensorFlow ou PyTorch.
 - Ferramenta de anotação de imagens (ex.: LabelImg).
 
-## Uso no notebook
+## Uso no notebook (Local)
 718 minutos
+- Nome do Sistema Operacional:	Microsoft Windows 10 Home Single Language
+- Processador:	AMD Ryzen 3 3200U with Radeon Vega Mobile Gfx, 2600 Mhz, 2 Núcleo(s), 4 Processador(es) Lógico(s)
+- Memória Física (RAM) Instalada:	12,0 GB
+
+
 
 ## Uso no Google Colab
 33 minutos
-Para facilitar o treinamento, você pode utilizar o notebook disponível no Google Colab: [Transfer Learning Notebook](https://github.com/vicssb/Training-Neural-Networks-with-Transfer-Learning/blob/main/notebooks/transfer-learning.ipynb).
+- Tipo de ambiente de execução: Python 3
+- GPUs: T4
+ 
+Para facilitar o treinamento, você pode utilizar o notebook disponível no Google Colab: [yolov8Completed](https://colab.research.google.com/drive/1uNB5kv3NFKxwAWcqU2r9O62j4gqonWjA).
 
 ## Imagens
 
@@ -58,9 +66,18 @@ Para mais detalhes, consulte o laboratório original: [Criação de uma Base de 
 
 ## Resultados
 
-Após o treinamento, o desempenho do modelo será avaliado, e os resultados serão exibidos. Você pode visualizar o processo de treinamento e os resultados usando o TensorBoard.
+Após o treinamento, o desempenho do modelo será avaliado, e os resultados serão exibidos. Você pode visualizar o processo de treinamento e os resultados usando os gráficos:
 
-  <img src="./img/Accuracy - Loss.png" alt="Gráfico de Acurácia - Perda" width="200"/>
+  <img src="resultsYolov8CustomCOLAB_GPU\confusion_matrix_normalized.png" alt="Matriz de Confusão Normalizada" width="200"/>
+
+  <img src="resultsYolov8CustomCOLAB_GPU\labels.jpg" alt="Rótulos" width="200"/>
+
+  <img src="resultsYolov8CustomCOLAB_GPU\results.png" alt="Resultados" width="200"/>
+
+
+## Vídeo com resultados
+
+<a href="./resultsYolov8CustomCOLAB_GPU/test%20video%20result.mp4" alt="Resultados" target="_blank">Vídeo</a>
 
 ## Licença
 
