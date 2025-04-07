@@ -76,6 +76,8 @@ After training, the model performance will be evaluated and the results will be 
   Your browser does not support the video tag.
 </video>
 
+![Test Video Result](testVideoResult.mp4)
+
 ## License
 
 This project is licensed under the MIT License.
