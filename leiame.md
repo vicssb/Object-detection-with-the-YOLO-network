@@ -74,7 +74,11 @@ Após o treinamento, o desempenho do modelo será avaliado, e os resultados ser�
 
 ## Vídeo com resultados
 
-![Vídeo com resultados](testVideoResult.mp4)
+<img src="result1.png" alt="Resultados" width="200"/>
+<img src="result2.png" alt="Resultados" width="200"/>
+<img src="result3.png" alt="Resultados" width="200"/>
+
+[Baixar o vídeo com resultados](testVideoResult.mp4)
 
 ## Licença
 

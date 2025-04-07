@@ -71,7 +71,11 @@ After training, the model performance will be evaluated and the results will be 
 
 ## Video with results
 
-![Test Video Result](testVideoResult.mp4)
+<img src="result1.png" alt="Results" width="200"/>
+<img src="result2.png" alt="Results" width="200"/>
+<img src="result3.png" alt="Results" width="200"/>
+
+[Download the video with results](testVideoResult.mp4)
 
 ## License
 
